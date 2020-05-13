@@ -1,4 +1,4 @@
-<font color="#87CEEB" size=1>个人信息</font>
+个人信息
 <br/>
 姓名：初蕾
 <br/>

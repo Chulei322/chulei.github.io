@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script type="text/javascript" src="jQuery v3.5.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+$("button").click(function(){
+$("#div1").fadeToggle();
+$("#div2").fadeToggle("slow");
+$("#div3").fadeToggle(3000);
+});
+});
+</script>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+<body>
+<button>点击这里</button>
+<br><br>
+<div id="div1" style="width:200px;height:100px;background-color:#BDB76B;">
+  <div align="center">手不释卷</div>
+</div><br>
+<div id="div2" style="width:200px;height:100px;background-color:grey;">
+  <div align="center">水滴石穿</div>
+</div><br>
+<div id="div3" style="width:200px;height:100px;background-color:#B0C4DE;">
+  <div align="center">锲而不舍</div>
+</div>
+</body>
+</html>
